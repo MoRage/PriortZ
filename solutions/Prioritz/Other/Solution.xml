@@ -84,6 +84,7 @@
       <RootComponent type="1" schemaName="contoso_prioritztopicparticipant" behavior="0" />
       <RootComponent type="29" id="{24bd16de-64b4-ec11-983f-000d3a1ef8bb}" behavior="0" />
       <RootComponent type="29" id="{633d9d7a-46b0-ec11-9840-000d3a3495ab}" behavior="0" />
+      <RootComponent type="66" schemaName="contoso_ContosoCoffee.PrioritZDnDRanking" behavior="0" />
       <RootComponent type="300" schemaName="contoso_prioritzadmin_1d21e" behavior="0" />
       <RootComponent type="300" schemaName="contoso_prioritzask_fefd1" behavior="0" />
       <RootComponent type="431" schemaName="contoso_prioritztopic contoso_photo" behavior="0" />
@@ -111,10 +112,6 @@
       <MissingDependency>
         <Required type="372" schemaName="contoso_5Fbadges-20connector" displayName="Badges connector" solution="Active" id="{b90bb46d-68da-4e03-b6f6-34a5e98539b6}" />
         <Dependent type="connectionreference" displayName="contoso_sharedcontoso5fbadges20connector5feac3e3eced6febdc_dcadf" id.connectionreferencelogicalname="contoso_sharedcontoso5fbadges20connector5feac3e3eced6febdc_dcadf" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required type="66" schemaName="contoso_ContosoCoffee.PrioritZDnDRanking" displayName="contoso_ContosoCoffee.PrioritZDnDRanking" solution="Active" />
-        <Dependent type="300" schemaName="contoso_prioritzask_fefd1" displayName="Prioritz Ask" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>
